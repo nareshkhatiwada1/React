@@ -13,9 +13,11 @@ function App() {
 
   return (
     <>
-      <Card/>
-      <h1 className='bg-green-400 text-black p-4 h-[400px] w-[1000px]'></h1>
-      
+      <h1 className='bg-green-400 text-black p-4 rounded-full'>Tailwind Test</h1>
+      <div className='flex gap-4 '>
+        <Card username="Naresh's_code" someObj={myObj} />
+        <Card username="NaRu" />
+      </div>
         
 
       
